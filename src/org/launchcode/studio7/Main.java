@@ -4,9 +4,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        // TODO: Declare and initialize a CD and a DVD object.
+        CD cd = new CD("Christmas Carols for Atheists", 700.23, "600 MB");
+        DVD dvd = new DVD("Fight Club", 4.8, "1530");
 
-        // TODO: Call each CD and DVD method to verify that they work as expected.
-
+        cd.spinDisc();
+        cd.readData();
+        dvd.spinDisc();
+        dvd.readData();
     }
 }
